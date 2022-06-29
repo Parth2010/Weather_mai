@@ -63,9 +63,9 @@ const app = {
     //console.log(`Longitude: ${crd.longitude}`);
     //got position
 
-    document.querySelector("#latitude").value =
+    document.getElementsById("latitude").value =
       position.coords.latitude.toFixed(2);
-    document.querySelector("#longitude").value =
+    document.getElementById("longitude").value =
       position.coords.longitude.toFixed(2);
 
     //TODO:set position.coords.latitude value to the input id='latitude' of HTML
